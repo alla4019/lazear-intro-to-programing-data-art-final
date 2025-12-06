@@ -56,3 +56,19 @@ if __name__ == "__main__":
         
         # Clear the screen
     #screen.fill(WHITE)
+
+
+#AI usage:
+# cLaude was used to help understand how to implement concepts including background creation. No code generation
+#was conducted by Claude. the following prompts were used.
+
+#1) You are a Computer science college professor. I am building a artistic data display using Pygame for a class. 
+# how would I use a jpg for the background of the data window. Do not write code unless I request it.
+
+#2) I have to come up with another class for this project. 
+# Please provide some recommendations for possible classes, but do not write any code.
+
+#addtionally I used Claude to understand errors that occured so I could correct them.
+#these prompts were "explain the (error text from the test) to me. 
+# ex: Explain this error to me. teamList[i].display()
+#TypeError: Team.display() missing 1 required positional argument: 'screen'"
