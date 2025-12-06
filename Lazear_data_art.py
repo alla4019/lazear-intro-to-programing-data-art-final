@@ -60,15 +60,21 @@ if __name__ == "__main__":
 
 #AI usage:
 # cLaude was used to help understand how to implement concepts including background creation. No code generation
-#was conducted by Claude. the following prompts were used.
+#was conducted by Claude. The following prompts were used.
 
-#1) You are a Computer science college professor. I am building a artistic data display using Pygame for a class. 
-# how would I use a jpg for the background of the data window. Do not write code unless I request it.
+#1) You are a Computer science college professor. I am building an artistic data display using Pygame for a class. 
+# How would I use a JPG for the background of the data window? Do not write code unless I request it.
 
 #2) I have to come up with another class for this project. 
 # Please provide some recommendations for possible classes, but do not write any code.
 
-#addtionally I used Claude to understand errors that occured so I could correct them.
+#In addition, I had Claude explain how I would add labels to the baseballs based on the chat about class ideas, where it had mentioned a label class but 
+#that it would make more sense to the team class instead. 
+
+#1)Can you also explain how the display_label command you mentioned earlier works? do not write any code. 
+
+#finally, I used Claude to understand errors that occurred so I could correct them.
 #these prompts were "explain the (error text from the test) to me. 
 # ex: Explain this error to me. teamList[i].display()
 #TypeError: Team.display() missing 1 required positional argument: 'screen'"
+
